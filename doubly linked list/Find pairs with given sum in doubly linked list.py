@@ -32,16 +32,16 @@ class Solution:
         return result 
         
         #better solution
-        myset=set()
-        temp=head
-        result=[]
-        while temp is not None:
-            remaining=target-temp.data
-            if remaining in myset:
-                result.append([remaining,temp.data])
-            myset.add(temp.data)
-            temp=temp.next
-        return result  
+        # myset=set()
+        # temp=head
+        # result=[]
+        # while temp is not None:
+        #     remaining=target-temp.data
+        #     if remaining in myset:
+        #         result.append([remaining,temp.data])
+        #     myset.add(temp.data)
+        #     temp=temp.next
+        # return result  
         
         
         
