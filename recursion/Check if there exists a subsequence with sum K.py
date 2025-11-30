@@ -22,8 +22,8 @@ class Solution:
     
     
     def checkSubsequenceSum(self, N, arr, K):
-        return self.solve(arr,K,0,[],0)
+        return self.solve(arr,K,0,[],0)                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
     
         
          
-            
+                                                                                             
