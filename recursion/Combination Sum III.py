@@ -4,7 +4,7 @@ class Solution(object):
         if total==n and len(subset)==k:
             result.append(subset[::])
             return
-        if index>=len(nums):
+        if index>=len(nums):h
             return    
         subset.append(nums[index])
         self.solve(index+1,total+nums[index],subset,k,n,result,nums)
